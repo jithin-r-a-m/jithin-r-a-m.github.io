@@ -1,0 +1,47 @@
+<div class="section-container" >
+       
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              
+              <h3 class="smalled" style="color: white;">Bachelor of Engineering </h3>
+              <img
+              src="./assets/cllglogo.png"
+              alt="College logo"
+              class="logoed"
+            />
+              <p style="color: rgb(255, 255, 255); font-weight: 500; font-size: .85rem;">Don Bosco Institute Of Technology<br /></p>
+              <p style="font-style: italic;color: rgb(255, 255, 255)">Computer Science Engineering</p>
+              <p>2020 - present </p>
+              <p style="color: white;" >Grade - 8.4</p>
+            </div>
+            <div class="details-container">
+              
+              <h3 class="smalled" style="color: white;">Pre-University degree</h3>
+              <img
+              src="./assets/pulogo.png"
+              alt="college logo"
+              class="logoed"
+            />
+              <p style="color: rgb(255, 255, 255); font-weight: 500;">Vidya Mandir Ind Pu College<br /></p>
+              <p style="font-style: italic; color: rgb(255, 255, 255)">PCMB - Karnataka State Board</p>
+              <p>2018 - 2020</p>
+              <p style="color: white;" >Grade - 8.4</p>
+            </div>
+            <div class="details-container">
+              
+              <h3 class="smalled" style="color: white;" >High School</h3>
+              <img
+              src="./assets/skllogo..jpg"
+              alt="School logo"
+              class="logoeds"
+            />
+              <p style="color: rgb(255, 255, 255); font-weight: 500;">St. Marys Public School<br /></p>
+              <p style="font-style: italic; color: rgb(255, 255, 255) ">10th Grade ICSE</p>
+              <p>2017 - 2018</p>
+              <p style="color: white;" >Grade - 9.3</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="foot.css"/>
+    <link rel="stylesheet" href="card.css"/>
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color: black;">
+    <nav>
+      <div class="logo">
+      <h2 style="font-size: medium; font-family: Kode Mono, monospace;"> < Jithin > </h2>
+    </div>
+
+      <ul>
+      <li><a href="#work" style="font-family: Kode Mono, monospace;">Experience</a></li>
+      <li><a href="#about" style="font-family: Kode Mono, monospace;">Education</a></li>
+      <li><a href="#experience" style="font-family: Kode Mono, monospace;">Skill</a></li>
+      <li><a href="#projects" style="font-family: Kode Mono, monospace;">Project</a></li>
+      <li><a href="#contact" style="font-family: Kode Mono, monospace;">Contact</a></li>
+      </ul>
+      <div class="menu-bars" id="toggle">
+        <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+      </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1" style="color: rgb(255, 255, 255);" >Hello, I'm</p>
+        <h1 class="title" style="color: rgb(255, 255, 255); font-family: VT323, monospace;" >Jithin R</h1>
+        <p class="section__text__p2" style="color: rgb(255, 255, 255);" >Software Engineer Undergrad</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1iUmZ-DbZucmsPJw4ZAa5sZ8vldWcQGmx/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        
+      </div>
+    </section>
+    <section id="work" style="height: auto;margin-top: 5rem;">
+      <p class="section__text__p1" style="font-family: Kode Mono, monospace;">Get to know more</p>
+      <h1 class="title" style="color: rgb(255, 255, 255);font-family: Pixelify Sans, sans-serif;">Experience</h1>
+      <div class="b">
+        <div class="timeline">
+          <ul>
+            <li>
+              <span >TOYOTO KIRLOSKAR MOTOR</span>
+              <div class="content">
+                <h3  style="color: rgb(255, 255, 255);font-family: Kode Mono, monospace; padding-top: 0.75rem;">Software engineer intern</h3>
+                <p style="font-style: italic;">September 2023 - November 2023</p>
+                <p style="color: white; text-align: justify;">
+                Worked on Quality Inspection Virtual System project involving creating a android application to record manual
+                inspection data real-time through simple user interface and help reduce the defect per vehicle <br>
+                Technology stack - KOTLIN, XML, SQL lite
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>VARCONS TECHNOLOGIES PVT LTD</span>
+              <div class="content">
+                <h3 style="color: rgb(255, 255, 255);font-family: Kode Mono, monospace; padding-top: 0.75rem;">Full stack developer intern</h3>
+                <p style="font-style: italic;">March 2023 - April 2023</p>
+                <p  style="color: white; text-align: justify ">
+                  I had the opportunity to work on a challenging project involving creating a web template that would allow users to
+                  download copyright-free images that met specific client requirements. My role in the project included developing the
+                  front-end interface using HTML, CSS, and JavaScript, as well as designing the database and implementing the back-end
+                  using PHP and MySQL<br>
+                  Technology stack - Vanilla HTML, CSS, Javascript, PHP, MySQL
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>GOOGLE DEVELOPER STUDENT CLUB DBIT</span>
+              <div class="content">
+                <h3 style="color: rgb(255, 255, 255);font-family: Kode Mono, monospace; padding-top: 0.75rem;">Cyber Security Lead
+                </h3><p style="font-style: italic;">August 2023 - present </p>
+                <p  style="color: white;">
+                Responsible to conduct tech events and workshop in the campus.
+      
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>WILANIOS FORUM CSE DBIT</span>
+              <div class="content">
+                <h3 style="color: rgb(255, 255, 255);font-family: Kode Mono, monospace; padding-top: 0.75rem;">Member</h3>
+                <p style="font-style: italic;">May 2021 - present</p>
+                <p  style="color: white;">
+                  Organize and be part of various events and competitions
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="about" >
+      <p class="section__text__p1">About my</p>
+      <h1 class="title" style="font-family: VT323, monospace;color:white">Education</h1>
+      <div class="roww" style="margin-top: 2rem;">
+        <div class="columnn">
+          <div class="cardd">
+            <h3 class="smalled" style="color: white;">Bachelor of Engineering </h3>
+              <img
+              src="./assets/cllglogo.png"
+              alt="College logo"
+              class="logoed"
+            />
+              <p style="color: rgb(255, 255, 255); font-weight: 500; font-size: .85rem;">Don Bosco Institute Of Technology<br /></p>
+              <p style="font-style: italic;color: rgb(255, 255, 255)">Computer Science Engineering</p>
+              <p>2020 - present </p>
+              <p style="color: white;" >Grade - 8.4</p>
+          
+          </div>
+        </div>
+        <div class="columnn">
+          <div class="cardd">
+            <h3 class="smalled" style="color: white;">Pre-University degree</h3>
+              <img
+              src="./assets/pulogo.png"
+              alt="college logo"
+              class="logoed"
+            />
+              <p style="color: rgb(255, 255, 255); font-weight: 500;">Vidya Mandir Ind Pu College<br /></p>
+              <p style="font-style: italic; color: rgb(255, 255, 255)">PCMB - Karnataka State Board</p>
+              <p>2018 - 2020</p>
+              <p style="color: white;" >Grade - 8.4</p>
+          </div>
+        </div>
+        <div class="columnn">
+          <div class="cardd">
+            <h3 class="smalled" style="color: white;" >High School</h3>
+              <img
+              src="./assets/skllogo..jpg"
+              alt="School logo"
+              class="logoeds"
+            />
+              <p style="color: rgb(255, 255, 255); font-weight: 500;">St. Marys Public School<br /></p>
+              <p style="font-style: italic; color: rgb(255, 255, 255) ">10th Grade ICSE</p>
+              <p>2017 - 2018</p>
+              <p style="color: white;" >Grade - 9.3</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+   
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title" style="font-family: VT323, monospace;color:white">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers">
+            <h2 class="experience-sub-title" style="color: rgba(255, 255, 255, 0.671);">Frontend & Backend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icona"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">HTML5</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Flutter</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">SQL</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">JS - React</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">CSS3</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">RESTful API</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Django</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Springboot</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-containers">
+            <h2 class="experience-sub-title" style="color: rgba(255, 255, 255, 0.671);">Miscellaneous</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icona"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">C#</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Linux</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">GIT</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Agile</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Python</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Docker</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">Java</h4>
+                  <p>Advance</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/arrow.png"
+                  alt="Experience icon"
+                  class="icona"
+                />
+                <div>
+                  <h4 style="font-family: Kode Mono, monospace;color:white">CN</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title" style="font-family: VT323, monospace;color:white">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot 2024-03-10 144814.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">PIC-IT</h2>
+            <p style="color: black; padding-bottom: 2rem;">Website to download copyright free images sourced from pexel.com</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/jithin-r-a-m/pic-it','_blank')"
+              >
+                Source Code
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://jithin-r-a-m.github.io/pic-it/', '_blank')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot 2024-03-10 144652.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3 style="padding: 1rem;">Sustainable Building Devlopment </h4>
+              <p style="color: black; padding-bottom: 2rem;">Website that analyse building struture and suggest modification to make building self sustainable</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/jithin-r-a-m/SustainableBuilding', '_blank')"
+              >
+                Source code
+              </button>
+            
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/qivs.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h3 style="padding: 1rem;"> Quality Inspection Virtual System </h3>
+            <p style="color: black; padding-bottom: 2rem;"> Android app that is used to store car weld inspection data in production plant and provide it for further analysis</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/jithin-r-a-m/QIVS-APP', '_blank')"
+              >
+                Source code
+              </button>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="contact">
+      <p class="section__text__p1" style="color: white;">Get in Touch</p>
+      <h1 class="title" style="font-family: VT323, monospace;color:white">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+         
+          <p style="text-decoration: none;">
+            <a href="mailto:jithinramachandra13@gmail.com" style="text-decoration: none;color: white;"><i class="fa-solid fa-envelope"></i> Mail me</a></p>
+        </div>
+        <div class="contact-info-container">
+          
+          <p style="text-decoration: none;">
+            <a  href="https://wa.me/918861785219" style="text-decoration: none;color: white;"><i class="fa-brands fa-whatsapp"></i> Whatsapp me </a></p>
+        </div>
+      
+      </div>
+    </section>
+    
+      <footer>
+        <div class="footerr">
+        <div class="roww">
+        <a href="https://github.com/jithin-r-a-m" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.instagram.com/jithinram__?igsh=MTEzM2c2Z3NiNDhhcA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jithin-ram" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.discordapp.com/users/852081700972527676" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        
+        <div class="roww">
+        <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#work">Experience</a></li>
+        <li><a href="#about">Education</a></li>
+        <li><a href="#experience">Skill</a></li>
+        <li><a href="#project">Project</a></li>
+        </ul>
+        </div>
+        
+        <div class="roww">
+        All rights reserved - Jithin R
+        </div>
+        </div>
+        </footer>
+        
+    <script src="script.js"></script>
+  </body>
+</html>

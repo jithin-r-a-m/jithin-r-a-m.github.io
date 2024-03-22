@@ -1,0 +1,47 @@
+.columnn {
+    float: left;
+    width:auto;
+    padding: 0 4%;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .roww {
+    margin: 0 -5px;
+  
+    
+}
+  
+  /* Clear floats after the columns */
+  .roww:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .cardd {
+    
+    padding: 25px;
+    border-radius: 2rem;
+    background: rgb(0, 0, 0,);
+    border: rgb(255, 255, 255) 0.1rem solid;
+    border-color: rgb(255, 255, 255);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    text-align: center;
+    width: 17rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .columnn {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .row{
+        margin: 0%;
+        padding: 0%;
+    }
+  }
